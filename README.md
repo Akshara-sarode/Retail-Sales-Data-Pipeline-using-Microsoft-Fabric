@@ -6,6 +6,9 @@
 A production-style **retail analytics pipeline built with Microsoft Fabric**, processing **913K+ retail transactions** using a **Medallion Lakehouse architecture**, dimensional warehouse modeling, and **Power BI dashboards** for executive decision-making.
 
 ---
+## 🏗️ Architecture Diagram
+
+![Architecture](https://github.com/Akshara-sarode/Retail-Sales-Data-Pipeline-using-Microsoft-Fabric/raw/main/architecture.png)
 
 # 📌 **Business Problem**
 
@@ -63,9 +66,6 @@ Power BI Semantic Model (DAX Measures)
       ▼
 Power BI Executive Dashboard
 ```
-## 🏗️ Architecture Diagram
-
-![Architecture](https://github.com/Akshara-sarode/Retail-Sales-Data-Pipeline-using-Microsoft-Fabric/raw/main/architecture.png)
 ---
 
 # ⚙️ **Technology Stack**
