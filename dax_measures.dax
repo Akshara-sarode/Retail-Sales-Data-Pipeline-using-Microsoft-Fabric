@@ -1,0 +1,80 @@
+
+-- -----------------------------------------
+-- Core Sales Metric
+-- -----------------------------------------
+
+Total Sales =
+SUM(FactSales[sales])
+
+
+-- -----------------------------------------
+-- Daily Performance
+-- -----------------------------------------
+
+Avg Daily Sales =
+AVERAGEX(
+    VALUES(DimDate[date_key]),
+    [Total Sales]
+)
+
+
+-- -----------------------------------------
+-- Time Intelligence
+-- -----------------------------------------
+
+Previous Year Sales =
+CALCULATE(
+    [Total Sales],
+    SAMEPERIODLASTYEAR(DimDate[date_key])
+)
+
+
+YoY Growth % =
+DIVIDE(
+    [Total Sales] - [Previous Year Sales],
+    [Previous Year Sales]
+)
+
+
+-- -----------------------------------------
+-- Best Performing Day
+-- -----------------------------------------
+
+Best Day Name =
+VAR t =
+    ADDCOLUMNS(
+        VALUES(DimDate[day_name]),
+        "Sales", [Total Sales]
+    )
+RETURN
+    MAXX(
+        TOPN(1, t, [Sales], DESC),
+        DimDate[day_name]
+    )
+
+
+Best Day Sales =
+VAR t =
+    ADDCOLUMNS(
+        VALUES(DimDate[day_name]),
+        "Sales", [Total Sales]
+    )
+RETURN
+    MAXX(
+        TOPN(1, t, [Sales], DESC),
+        [Sales]
+    )
+
+
+-- -----------------------------------------
+-- Store Analytics
+-- -----------------------------------------
+
+Store Rank =
+RANKX(
+    ALL(DimStore[store_key]),
+    [Total Sales],
+    ,
+    DESC,
+    DENSE
+)
