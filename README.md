@@ -1,5 +1,5 @@
 
-# 🏪 **Retail Sales Data Pipeline using Microsoft Fabric**
+# **Retail Sales Data Pipeline using Microsoft Fabric**
 
 **Microsoft Fabric | Power BI | PySpark | SQL**
 
