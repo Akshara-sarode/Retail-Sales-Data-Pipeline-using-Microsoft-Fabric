@@ -8,7 +8,6 @@ A production-style **retail analytics pipeline built with Microsoft Fabric**, pr
 ---
 
 
-
 # 📌 **Business Problem**
 
 Retail organizations generate massive volumes of transactional data but often lack structured pipelines to convert raw data into **actionable insights**.
