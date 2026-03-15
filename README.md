@@ -7,7 +7,6 @@ A production-style **retail analytics pipeline built with Microsoft Fabric**, pr
 
 ---
 
-
 # 📌 **Business Problem**
 
 Retail organizations generate massive volumes of transactional data but often lack structured pipelines to convert raw data into **actionable insights**.
@@ -64,7 +63,9 @@ Power BI Semantic Model (DAX Measures)
       ▼
 Power BI Executive Dashboard
 ```
+## 🏗️ Architecture Diagram
 
+![Architecture](https://github.com/Akshara-sarode/Retail-Sales-Data-Pipeline-using-Microsoft-Fabric/raw/main/architecture.png)
 ---
 
 # ⚙️ **Technology Stack**
