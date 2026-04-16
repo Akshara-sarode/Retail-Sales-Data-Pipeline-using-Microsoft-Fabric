@@ -182,6 +182,9 @@ GROUP BY date;
 
 A **Star Schema warehouse** was implemented for BI analytics.
 
+<img width="1322" height="1066" alt="image" src="https://github.com/user-attachments/assets/0a7540f8-bd3d-4d97-add3-e3f1392dd1d6" />
+
+
 ---
 
 ## 📌 Fact Table
