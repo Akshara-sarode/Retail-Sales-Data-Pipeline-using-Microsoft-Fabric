@@ -315,6 +315,9 @@ DESC
 
 The final **Executive Dashboard** provides business insights.
 
+<img width="1604" height="896" alt="image" src="https://github.com/user-attachments/assets/099856c1-ab6e-44d4-b711-954109314bd5" />
+
+
 ### Dashboard Visuals
 
 | **Visual**        | **Purpose**                            |
