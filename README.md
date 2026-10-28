@@ -184,6 +184,8 @@ A **Star Schema warehouse** was implemented for BI analytics.
 
 <img width="1322" height="1066" alt="image" src="https://github.com/user-attachments/assets/0a7540f8-bd3d-4d97-add3-e3f1392dd1d6" />
 
+<img width="1332" height="1090" alt="image" src="https://github.com/user-attachments/assets/d0162836-c4b0-4c60-80ae-fb76d4a57c4f" />
+
 
 ---
 
