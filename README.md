@@ -10,6 +10,9 @@ A production-style **retail analytics pipeline built with Microsoft Fabric**, pr
 
 ![Architecture](https://github.com/Akshara-sarode/Retail-Sales-Data-Pipeline-using-Microsoft-Fabric/raw/main/architecture.png)
 
+<img width="1078" height="1222" alt="image" src="https://github.com/user-attachments/assets/0881c2bd-9334-4f1d-a583-a56a4475c49c" />
+
+
 # 📌 **Business Problem**
 
 Retail organizations generate massive volumes of transactional data but often lack structured pipelines to convert raw data into **actionable insights**.
